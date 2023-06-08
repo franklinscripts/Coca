@@ -22,7 +22,7 @@ const Build = () => {
     ]
   return (
     <div className=' w-full sm:mt-96 sm:pt-52  bg-green-950  py-4   mt-16 '>
-        <div className='md:max-w-[1440px] w-full   mx-auto'>
+        <div className='md:max-w-[1440px] w-full md:px-5  mx-auto'>
         <div className=' md:flex block justify-between items-center  py-7 md:px-0 px-7'>
             <div className=''>
             <Fil text="product overview"/>
