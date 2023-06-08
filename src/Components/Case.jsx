@@ -4,7 +4,7 @@ import Learn from './Learn'
 
 const Case = () => {
   return (
-   <div className='md:max-w-[1440px] w-full mx-auto    py-7 md:px-5 px-7 flex lg:flex-row flex-col justify-center items-center  md:justify-between '>
+   <div className='md:max-w-[1440px] w-full mx-auto    py-7 md:px-5 px-7 flex md:flex-row flex-col justify-center items-center  md:justify-between '>
 
       <div className='pb-7 md:pb-0 relative'>
         <div className=' card-0 '>
