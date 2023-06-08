@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1, h2, h3, h4{
+    font-family: 'DM Sans', sans-serif !important;
+}
+* {
+    font-family: 'Inter', sans-serif;
+}
+@layer components {
+    .card {
+      position: absolute;
+      top: 299px;
+      /* bottom: 0; */
+      z-index: 999;
+      /* left: 0; */
+      /* transform: translate(-50%, -50%); */
+
+
+    }
+    .card-1 {
+      position: absolute;
+      top: 820px;
+
+      /* transform: translate(-50%, -50%); */
+
+
+    }
+    .card-0 {
+      position: absolute;
+      top: 360px;
+      z-index: -9999;
+      transform: translate(-50%, -50%);
+
+
+    }
+    .card-9 {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      z-index: -9999;
+      transform: translate(-50%, -50%);
+
+
+    }
+
+    .card-2 {
+      position: absolute;
+      top: 69px;
+      right: 0;
+      /* transform: translate(-50%, -50%); */
+
+
+    }
+    .card-3 {
+      position: absolute;
+      
+      
+      /* bottom:0; */
+      transform: translate(-50%, -50%);
+
+
+    }
+    /* ... */
+  }
